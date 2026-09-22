@@ -93,7 +93,17 @@
 
   --sidebar-border: oklch(0.922 0 0);
 
-  --sidebar-ring: oklch(0.708 0 0)
+  --sidebar-ring: oklch(0.708 0 0);
+
+    /* Badge status - Light Theme */
+  --badge-enrolled-bg: #fef3c7;
+  --badge-enrolled-text: #92400e;
+  --badge-enrolled-border: #f59e0b;
+
+  --badge-open-bg: #f3e8ff;
+  --badge-open-text: #6b21a8;
+  --badge-open-border: #a855f7;
+
 }
 
 @theme inline {
@@ -171,6 +181,13 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+    --badge-enrolled-bg: #3b0764;
+  --badge-enrolled-text: #e9d5ff;
+  --badge-enrolled-border: #a855f7;
+
+  --badge-open-bg: #451a03;
+  --badge-open-text: #fde68a;
+  --badge-open-border: #f59e0b;
 }
 
 @layer base {
